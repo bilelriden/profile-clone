@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Kumbh Sans;
+  font-size: 1.1rem;
+  background: hsl(185, 75%, 39%);
+}
+h1 {
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+p,
+.age {
+  font-weight: 400;
+  color: hsl(229, 23%, 23%);
+}
+
+section {
+  background-color: white;
+  width: 30vw;
+  height: 65vh;
+  margin: 17.5vh auto;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.bg-image {
+  height: 37.5%;
+  width: 100%;
+  background-image: url(./images/bg-pattern-card.svg);
+}
+.user-info {
+  height: 37.5%;
+  width: 100%;
+  position: relative;
+}
+.bar {
+  background-color: hsl(229, 23%, 23%);
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+}
+.container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  top: -48px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.name-place {
+  text-align: center;
+  margin-top: 1em;
+  line-height: 2em;
+}
+.user-img {
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.profile-info {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.profile-info div {
+  text-align: center;
+  line-height: 1.8rem;
+}
+.cir-1 {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  z-index: -999;
+  background-image: url(./images/bg-pattern-top.svg);
+  background-position: right bottom;
+}
+.cir-2 {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -999;
+  background-image: url(./images/bg-pattern-bottom.svg);
+  background-position: left top;
+}
